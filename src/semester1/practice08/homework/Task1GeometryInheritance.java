@@ -1,3 +1,5 @@
+package semester1.practice08.homework;
+
 public class Task1GeometryInheritance {
     public static void main(String[] args) {
         System.out.println("================ ГЕОМЕТРІЯ ТІЛ ОБЕРТАННЯ ================");
@@ -7,12 +9,12 @@ public class Task1GeometryInheritance {
 
         System.out.println();
 
-        System.out.println("Циліндр (успадковано від Circle):");
+        System.out.println("Циліндр (успадковано від semester1.practice08.homework.Circle):");
         Cylinder cylinder = new Cylinder(5, 10);
         System.out.println(cylinder);
 
         System.out.println();
-        System.out.println("Конус (успадковано від Circle):");
+        System.out.println("Конус (успадковано від semester1.practice08.homework.Circle):");
         Cone cone = new Cone(3, 4);
         System.out.println(cone);
     }

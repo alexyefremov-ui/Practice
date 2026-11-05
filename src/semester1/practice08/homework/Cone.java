@@ -1,4 +1,6 @@
-public class Cone extends Circle{
+package semester1.practice08.homework;
+
+public class Cone extends Circle {
     private double height;
 
     public void setHeight(double height) {
@@ -28,7 +30,7 @@ public class Cone extends Circle{
     }
 
     @Override public String toString(){
-        return super.toString() + String.format("Cylinder h = %.2f, V = %.2f, TSA = %.2f", this.height, this.getVolume(), this.getTotalSurfaceArea());
+        return super.toString() + String.format("semester1.practice08.homework.Cylinder h = %.2f, V = %.2f, TSA = %.2f", this.height, this.getVolume(), this.getTotalSurfaceArea());
     }
 
 }
