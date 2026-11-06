@@ -11,13 +11,13 @@ public class Task3Vector3DHierarchy {
         System.out.println("2. Рівень 2 (3D): " + vector3D);
 
         Vector3D displacement = new Vector3D(2, 0, 5);
-        System.out.println("   Вектор переміщення S: " + displacement);
 
+
+        System.out.println("   Вектор переміщення S: " + displacement);
         ForceVector3D force = new ForceVector3D("Тяга ракети", 3, 4, 12);
 
         System.out.println("\n3. Рівень 3 (Фізична сила):");
         System.out.println("   " + force);
-
         double work = force.calculateWork(displacement);
         System.out.printf("   -> Виконана механічна робота A = F · S = %.2f Дж%n", work);
 
