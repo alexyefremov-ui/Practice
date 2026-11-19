@@ -18,9 +18,10 @@ public class RoyalGriffin extends AbstractMonster implements FlyingMonster {
         return "Грифон видає пронизливий крик!";
     }
 
+
     @Override
     public boolean isAirborne() {
-        return airborne;
+        return false;
     }
 
     @Override
