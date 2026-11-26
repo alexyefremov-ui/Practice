@@ -1,6 +1,8 @@
 import com.sun.source.tree.ArrayAccessTree;
 
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -35,6 +37,11 @@ public class Main {
         //= String.valueOf(7);
 
         ArrayList<Integer> list = new ArrayList<>();
+        Iterator<Integer> g = list.iterator();
+
+        if (list instanceof List<?>){
+
+        }
         list.add(Integer.valueOf(2));
         list.add(2);
 
